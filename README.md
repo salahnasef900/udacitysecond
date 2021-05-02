@@ -1,1 +1,8 @@
 # udacitysecond
+#USED bootstrap5
+#USEDJS
+#USEDHTML
+#USEDCSS3
+#MAIN color :#5aa897
+#FONT:RANDOM
+#RESPONSIVE
