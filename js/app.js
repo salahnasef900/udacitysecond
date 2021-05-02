@@ -1,31 +1,36 @@
-//click to scrool 
-function add(){
-    let porto = document.getElementById('porto');
-    porto.scrollIntoView({behavior:"smooth",block:"start",inline:block});
-}
-;
-
-//click to scrool 
-function services(){
-   
-    let services = document.getElementById('services');
-
-    services.scrollIntoView({behavior:"smooth",block:"start",inline:block});
-}
-;
-//click to scrool 
-
-function contact(){
-    let contact = document.getElementById('contact');
-    contact.scrollIntoView({behavior:"smooth",block:"start",inline:block});
-}
-;
+//click to scrool  section1
+const porofolio = document.getElementById('porofolio');
+porofolio.addEventListener("click", function() {
+  let porto = document.getElementById('porto');
+  porto.scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
+//click to scrool  to section 2
+const services = document.getElementById('services');
+services.addEventListener("click", function ser() {
+  let servicesc = document.getElementById('servicesc');
+  servicesc.scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
+//click to scrool
+const contact = document.getElementById('contact');
+contact.addEventListener("click", function scont() {
+  let contactc = document.getElementById('contactc');
+  contactc.scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
 let mybutton = document.getElementById("myBtn");
-
 // When the user scrolls down 20px from the top of the document, show the button
 // when scrool add the nav bar sticky class
-window.onscroll = function() {scrollFunction()};
-
+window.onscroll = function() {
+  scrollFunction()
+};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
@@ -37,7 +42,6 @@ function scrollFunction() {
 
   }
 }
-
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
