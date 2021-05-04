@@ -1,8 +1,6 @@
-# udacitysecond
-#USED bootstrap5
-#USEDJS
-#USEDHTML
-#USEDCSS3
-#MAIN color :#5aa897
-#FONT:RANDOM
-#RESPONSIVE
+ udacitysecond
+ this is my udacity landing page project
+   i used css and html and pure java script
+      bootstrap
+      used some  bootstrap
+      
