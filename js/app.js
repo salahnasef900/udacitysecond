@@ -47,3 +47,10 @@ const topFunction =() =>{
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 };
+// call this function after 1000 milisec
+setTimeout(function sayhi(){
+  const salah=document.querySelector('#salah')
+  const ibram=document.querySelector('#ibram')
+  ibram.style.display="block";
+  salah.style.display="block";
+},1000)
