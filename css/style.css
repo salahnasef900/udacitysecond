@@ -252,3 +252,6 @@ footer i:hover {
 .footer {
   margin-top: 2rem;
 }
+#ibram ,#salah {
+  display: none;
+}
